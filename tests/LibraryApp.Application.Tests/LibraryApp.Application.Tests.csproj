@@ -23,9 +23,9 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>    <ProjectReference Include="..\..\..\..\DevLabTestTask1\LibraryManagementApp\src\LibraryApp.Application\LibraryApp.Application.csproj" />
-    <ProjectReference Include="..\..\..\..\DevLabTestTask1\LibraryManagementApp\src\LibraryApp.Domain\LibraryApp.Domain.csproj" />
-
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LibraryApp.Application\LibraryApp.Application.csproj" />
+    <ProjectReference Include="..\..\src\LibraryApp.Domain\LibraryApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\DevLabTestTask1\LibraryManagementApp\src\LibraryApp.Api\LibraryApp.Api.csproj" />
-    <ProjectReference Include="..\..\..\..\DevLabTestTask1\LibraryManagementApp\src\LibraryApp.Application\LibraryApp.Application.csproj" />
+    <ProjectReference Include="..\..\src\LibraryApp.Api\LibraryApp.Api.csproj" />
+    <ProjectReference Include="..\..\src\LibraryApp.Application\LibraryApp.Application.csproj" />
   </ItemGroup>
 
 </Project>
