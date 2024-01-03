@@ -21,7 +21,7 @@ jobs:
 
       - name: Google Chat Notification
         run: |
-          curl --location --request POST '${{ https://chat.googleapis.com/v1/spaces/AAAAeh4aTco/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=NZOpxrVmK6zb3HaZUP6gtIZnnkuXcXLHcunadj5awLI }}' \
+          curl --location --request POST 'https://chat.googleapis.com/v1/spaces/AAAAeh4aTco/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=NZOpxrVmK6zb3HaZUP6gtIZnnkuXcXLHcunadj5awLI' \
           --header 'Content-Type: application/json' \
           --data-raw '{
               "cards": [
